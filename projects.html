@@ -1,0 +1,53 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>AlbertFaust</title>
+</head>
+<body>
+<div id="container">
+<div id="body">
+<h1>AlbertFaust</h1>
+<nav>
+ <ul id="menu">
+<li id="list-menu"><a href="index.html">About Me</a></li>&thinsp;&thinsp;&thinsp;
+  <li id="list-menu"><a href="projects.html">Projects</a></li>&thinsp;&thinsp;&thinsp;
+  <li id="list-menu"><a href="resume.html">Resume</a></li>&thinsp;&thinsp;&thinsp;
+  <li id="list-menu"><a href="blog.html">Blog</a></li>
+</ul> 
+</nav>
+<div id="cv">
+<h9>Wallpaper to Theme</h9>
+<p>
+Java
+</p>
+<div id="images">
+<p>
+<a href="https://github.com/AlbertFaust/wallpaper-to-theme"><img src="githubp.png" alt="Wallpaper-to-Theme" style="width:50px;height:50px;"></a>
+
+</p>
+</div>
+<p>
+A linux script to detect the most dominant colours in a wallpaper and change the theme (terminal, vim etc.) colours to match the wallpaper. Written in C and ported to Java.
+
+<img src="wtt.jpg" alt="Example" style="width:783px;height:450px;">
+<div class="accc">
+
+<h3>K-Means Clustering and Lloyd's Algorithm</h3>
+
+K-Means is a cluster analysis technique for exploring a dataset. In <i>Wallpaper to Theme</i> the dataset is comprised of every pixel's RGB value. After the clusters have been formed, the center of the clusters will show the most dominant colours in the image.
+<br>
+<h3>How it Works:</h3>
+<ul id="acc">
+<li><span style=font-size:200%>Say we have a 100px*100px image. From this image we can get the RBG value of each pixel. This will give us 10,000 3 Dimensional points.</span></li>
+<li><span style=font-size:200%>Now we choose our 3 initial cluster centroids. (For simplicity our initial points can be the RGB values for Red, Green and Blue)</span></li>
+<li><span style=font-size:200%>Go through each pixel and assign it to it's nearest cluster centroid.</span></li>
+<li><span style=font-size:200%>Now go through each cluster and recalculate it's new centroid based on the pixels assigned to it.</span></li>
+<li><span style=font-size:200%>Keep reassigning the pixels and recalculating the centroids until the dominant colours have been found. </span></li>
+</ul>
+
+</div>
+ <div id="footer-cv"></div>
+</div>
+</body>
+</html> 
