@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Thin.ttf);
+}
+div{
+	font-family: Roboto;
+	}
+h1 {
+	text-align: center;
+    font-weight: normal;
+    font-size: 3em;
+}
+h2 {
+	text-align: center;
+    font-weight: normal
+}
+p {
+	text-align: center;
+}
+
+ul {
+	text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+} 
+li {
+    display: inline;
+}
+div_con{
+	}
+.conway {
+    width: auto;
+    border-collapse: collapse;
+}
+.conway .cell {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #fff;
+}
+.conway .live {
+    background: black;
+}
