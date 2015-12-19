@@ -30,12 +30,12 @@ Java
 <p>
 A linux script to detect the most dominant colours in a wallpaper and change the theme (terminal, vim etc.) colours to match the wallpaper. Written in C and ported to Java.
 
-<img src="wtt.jpg" alt="Example" style="width:783px;height:450px;">
+<img src="wtt.jpg" alt="Example" style="width:750px;height:430px;">
 <div class="accc">
 
 <h3>K-Means Clustering and Lloyd's Algorithm</h3>
 
-K-Means is a cluster analysis technique for exploring a dataset. In <i>Wallpaper to Theme</i> the dataset is comprised of every pixel's RGB value. After the clusters have been formed, the center of the clusters will show the most dominant colours in the image.
+<a href="https://en.wikipedia.org/wiki/K-means_clustering">K-Means</a> is a cluster analysis technique for exploring a dataset. In <i>Wallpaper to Theme</i> the dataset is comprised of every pixel's RGB value. After the clusters have been formed, the center of the clusters will show the most dominant colours in the image.
 <br>
 <h3>How it Works:</h3>
 <ul id="acc">
@@ -45,7 +45,86 @@ K-Means is a cluster analysis technique for exploring a dataset. In <i>Wallpaper
 <li><span style=font-size:200%>Now go through each cluster and recalculate it's new centroid based on the pixels assigned to it.</span></li>
 <li><span style=font-size:200%>Keep reassigning the pixels and recalculating the centroids until the dominant colours have been found. </span></li>
 </ul>
+</div>
+<h9>Gravity Assist Simulator</h9>
+<p>
+C++/OpenGL
+</p>
+<div id="images">
+<p>
+<a href="https://github.com/AlbertFaust/gravity-assist"><img src="githubp.png" alt="Wallpaper-to-Theme" style="width:50px;height:50px;"></a>
 
+</p>
+</div>
+<p>
+A <a href="https://en.wikipedia.org/wiki/Gravity_assist">gravitational assist</a> simulator that simulates the motion of objects as they enter and exit gravitational fields. The program is written using C++ and OpenGL and uses 'real physics' applying <a href="https://en.wikipedia.org/wiki/Kepler's_laws_of_planetary_motion">Kepler's Laws</a> and <a href="https://en.wikipedia.org/wiki/Newton's_law_of_universal_gravitation">Newtonian Gravitation</a> to simulate the gravitational slingshots.
+</p>
+<p>
+<img src="output2.gif" alt="Example" style="width:400px;height:400px;">
+</p><div class="accc">
+<h3>Gravity Assist</h3>
+A gravity assist is the act of getting close to a large gravitational body (like a planet) in order to speed up. In this process, the planet loses some of its orbital energy (conservation of energy) but the amount the planet loses is proportionately very small.
+<h3>Development</h3>
+
+This is a project that I plan on investing a lot of time in. I am very interested in Celestial Mechanics and want to work on a large Computer Graphics project. Some parts of the project I need to implement:
+
+<ul id="acc">
+<li><span style=font-size:200%>Fully working Solar System with textured planets and stars.</span></li>
+<li><span style=font-size:200%>Ability to control camera and 'time'. 
+<li><span style=font-size:200%>Accurate orbital physics using Kepler's Laws and Newtonian Gravitation.</span></li>
+<li><span style=font-size:200%>Ability to generate 'planets' and see how a body reacts in the field.</span></li>
+</ul>
+
+</ul>
+<br><br>
+<div id="images">
+<h9>Other Projects</h9>
+<a href="https://github.com/AlbertFaust/game-of-life"><h7>Game of Life</h7></a>&thinsp;&thinsp;&thinsp;<i>[C/JavaScript]</i><br>
+The <a href="https://en.wikipedia.org/wiki/Conway's_Game_of_Life">Game of Life</a>, is a cellular automaton devised by the British mathematician John Horton Conway in 1970. Conway's Game of Life was the first program I ever wrote. It is a zero-player game, meaning that it evolves from the initial state without interference. The evolutions are determined by the following rules:
+<ol>
+    <li>Any live cell with fewer than two live neighbours dies, as if caused by under-population.</li>
+    <li>Any live cell with two or three live neighbours lives on to the next generation.</li>
+    <li>Any live cell with more than three live neighbours dies, as if by over-population.</li>
+    <li>Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.</li>
+</ol>
+<a href="https://github.com/AlbertFaust/loop-web-scraper"><h7>Loop Web Scraper</h7></a>&thinsp;&thinsp;&thinsp;<i>[Python]</i><br>
+The online learning platform in DCU is called <a href="https://loop.dcu.ie/">Loop</a>. It is where all of the lecture notes are uploaded by lecturers and each year it is cleared and replaced with the notes for the current year. At the end of the year I wanted to download all of my notes. Performing this task by hand would take a long time and is very menial so I decided to write a scraper to do this for me. <br>
+Unfortunately, the notes were removed before I finished writing the scraper so I have put the project on hold until closer to the end of the year.<br><br>
+<a href="https://github.com/AlbertFaust/webdev"><h7>WebDev</h7></a>&thinsp;&thinsp;&thinsp;<i>[HTML/Css/JavaScript]</i><br>
+WebDev is a repository where I keep the websites I have created. (not including my personal <a href="http://www.albertfaust.com">albertfaust.com</a> site) At the moment the only site I have in the repo is the site I made during my internship for the <a href="http://www.eeng.dcu.ie/~pel/">Performance Engineering Laboratory.</a> The site still needs a few changes before it can be deployed but has been put on hold due to corrupted code.<br><br>
+<a href="https://github.com/AlbertFaust/rootkit"><h7>Rootkit</h7></a>&thinsp;&thinsp;&thinsp;<i>[Shell]</i><br>
+A <a href="https://en.wikipedia.org/wiki/Rootkit">Rootkit</a> is a collection of scripts that allow unauthorised control of a system. This is less of a project and more of a place where I can add additional scripts as I write them. It is made with the intention of being purely educational and is not designed for malicious use.<br>
+<h9>Academic</h9>
+<a href="https://github.com/AlbertFaust/project-euler"><h7>Project Euler</h7></a>&thinsp;&thinsp;&thinsp;<i>[Python]</i><br>
+<a href="https://projecteuler.net/">Project Euler</a> is 'a series of challenging mathematical/computer programming problems that will require more than just mathematical insights to solve.' So far I have solved 34 problems and my solutions are on my GitHub.<br><br>
+<a href="https://github.com/AlbertFaust/redbrick-sysadmin-exams"><h7>RedBrick SysAdmin Exams</h7></a>&thinsp;&thinsp;&thinsp;<i>[Shell]</i><br>
+<a href="https://www.redbrick.dcu.ie/">Redbrick</a>  is Dublin City University's Computer Networking Society. They maintain several servers in DCU that host society websites etc. When a position is available they hold an exam for the new System Administrator. I have started to work through the <a href="https://www.redbrick.dcu.ie/help/exams">past exams</a> and my solutions are available. <br><br>
+<a href="https://github.com/AlbertFaust/mit-ocw-6.00sc"><h7>MIT OCW 6.00SC</h7></a>&thinsp;&thinsp;&thinsp;<i>[Python]</i><br>
+<a href="http://ocw.mit.edu/index.htm">MIT OpenCourseWare (MIT OCW)</a> is an initiative of MIT to put all of the educational materials from its undergraduate and graduate courses online, freely and openly available to anyone, anywhere. <a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/">6.00SC</a> is Introduction to Computer Science and Programming. I have started progressing though the course and I upload my notes and problem set solutions to GitHub.<br><br>
+<a href="https://github.com/AlbertFaust/advent-of-code"><h7>Advent of Code</h7></a>&thinsp;&thinsp;&thinsp;<i>[C++]</i><br>
+<a href="http://adventofcode.com">Advent of Code</a> is a series of small programming puzzles for a variety of skill levels. Every day from December 1 to December 25 two problems are released. I am working through the problems using C++.<br>
+<h9>University Code</h9>
+<a href="https://github.com/AlbertFaust/em114-numerical-problem-solving"><h7>Numerical Problem Solving EM114</h7></a>&thinsp;&thinsp;&thinsp;<i>[Matlab]</i><br>
+'<a href="https://www.dcu.ie/registry/module_contents.php?function=2&subcode=EM114">EM114</a> is intended to complement the formal, analytical mathematical theory presented in Engineering Mathematics I and II and focuses instead on practical problem-solving skills.'<br>
+The module is taken as part of Electronic and Computer Engineering Year 1 in Dublin City University. <br><br>
+<a href="https://github.com/AlbertFaust/em108-software-development"><h7>Software Development EM108</h7></a>&thinsp;&thinsp;&thinsp;<i>[C]</i><br>
+'The aim of <a href="https://www.dcu.ie/registry/module_contents.php?subcode=EM108&function=2">EM108</a> is to develop familiarity with basic concepts and techniques of software engineering in C. Example application areas include numerical analysis and cryptography.' <br>
+The module is taken as part of Electronic and Computer Engineering Year 1 in Dublin City University. <br><br>
+<a href="https://github.com/AlbertFaust/ee219-object-oriented-programming-i"><h7>Object Oriented Programming I EE219</h7></a>&thinsp;&thinsp;&thinsp;<i>[C++/Java]</i><br>
+'<a href="https://www.dcu.ie/registry/module_contents.php?subcode=EE219&function=2">EE219</a> will equip students with a good working knowledge of object-oriented programming in both the C++ and Java programming languages.'<br>
+The module is taken as part of Electronic and Computer Engineering Year 2 in Dublin City University. <br><br>
+<a href="https://github.com/AlbertFaust/ee223-digital-and-analogue-electronics-i"><h7>Digital and Analogue Electronics</h7></a>&thinsp;&thinsp;&thinsp;<i>[Arduino]</i><br>
+'The purpose of <a href="https://www.dcu.ie/registry/module_contents.php?subcode=EE223&function=2">EE223</a> is to introduce the fundamental principles of digital and analogue electronics from system and device perspectives.' <br>
+The module is taken as part of Electronic and Computer Engineering Year 2 in Dublin City University. <br>
+<h9>Miscellaneous</h9>
+<a href="https://github.com/AlbertFaust/dotfiles"><h7>Dotfiles</h7></a>&thinsp;&thinsp;&thinsp;<i>[Haskell/Shell]</i><br>
+This is a repository where I keep my ArchLinux dotfiles. Including configs for <i>vim</i>, <i>xmonad</i> and <i>zsh</i>.<br><br>
+<a href="https://github.com/AlbertFaust/thinkpad"><h7>ThinkPad Scripts</h7></a>&thinsp;&thinsp;&thinsp;<i>[Shell]</i><br>
+A collection of scripts and fixes for running Linux on a Thinkpad (X1 Carbon Gen3). 
+</p>
+</div>
+</div>
+</div>
 </div>
  <div id="footer-cv"></div>
 </div>
